@@ -196,3 +196,17 @@ body {
 .big-size {
   font-size: 36px;
 }
+
+@media (max-width: 350px) {
+  .social-link {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 330px) {
+  .social-link {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
