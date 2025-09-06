@@ -39,6 +39,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 10px;
 
   height: 4rem;
   padding: 10px 10px 10px 20px;
@@ -47,6 +48,10 @@ body {
   backdrop-filter: blur(24px);
   border-radius: 2000px;
   z-index: 1000;
+}
+
+.logo {
+  line-height: 18px;
 }
 
 .phone-call {
