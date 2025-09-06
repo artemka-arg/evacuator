@@ -1,0 +1,196 @@
+:root {
+  --background-color: #11141a;
+  --lighter-color: #4e586e;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-color: var(--background-color);
+  z-index: -1000;
+}
+
+.header-wrapper {
+  padding-top: 74px;
+}
+
+.page-header {
+  position: fixed;
+  top: 1rem;
+  left: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  padding: 10px 10px 10px 20px;
+  background-color: rgba(77, 85, 91, 0.5);
+  backdrop-filter: blur(24px);
+  border-radius: 2000px;
+  z-index: 1000;
+}
+
+.phone-call {
+  display: block;
+  padding: 10px 20px 10px 32px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #11141a;
+  border-radius: 1000px;
+  background-color: #fff;
+  background-image: url("img/icons/phone.svg");
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: 5px 8px;
+}
+
+.hero {
+  overflow: hidden;
+}
+
+.hero-container {
+  position: relative;
+  align-items: center;
+  min-height: 300px;
+  max-width: 1280px;
+}
+
+.hero-title {
+  padding-left: 20px;
+  margin-top: 200px;
+  font-size: 24px;
+  z-index: 3;
+  text-transform: uppercase;
+}
+
+.big-size {
+  font-size: 36px;
+}
+
+.car-img {
+text-align: right;
+}
+
+.title {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  min-height: 300px;
+  max-width: 250px;
+  background-color: #11141ab6;
+  box-shadow: 0 0 50px 10px #11141a;
+  z-index: 100;
+}
+
+.hero-img {
+  position: absolute;
+  height: 300px;
+  width: auto;
+  top: 0;
+  right: -40px;
+  bottom: 0;
+  z-index: 0;
+}
+
+.contacts-container {
+  padding: 20px;
+}
+
+.contacts-title {
+  font-size: 23px;
+  text-align: center;
+}
+
+.social-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social-item {
+  display: flex;
+  height: 4rem;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.social-item span {
+  font-weight: bold;
+}
+
+.social-instagram {
+  color: #af5086;
+  border: 2px solid #af5086;
+  box-shadow: inset 0px -17px 20px -15px #af5086;
+}
+
+.social-whatsapp {
+  color: #6dfba3;
+  border: 2px solid #6dfba380;
+  box-shadow: inset 0px -14px 20px -15px #6dfba3;
+}
+
+.social-telegram {
+  color: #2e92d2;
+  border: 2px solid rgb(46, 146, 210);
+  box-shadow: inset 0px -17px 20px -15px #2e92d2;
+}
+
+.social-whatsapp::before {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  border-radius: 100px;
+  content: "";
+}
+
+.social-icon {
+  height: 30px;
+}
+
+.instagram-icon {
+  filter: drop-shadow(0px 0px 4px #af5086);
+}
+
+.instagram-name {
+  color: #af5086;
+}
+
+.whatsapp-name {
+  color: #6dfba3;
+}
+
+.telegram-name {
+  color: #2e92d2;
+}
+
+.whatsapp-icon {
+  filter: drop-shadow(0px 0px 4px #6dfba3);
+}
+
+.telegram-icon {
+  filter: drop-shadow(0px 0px 4px #2e92d2);
+}
