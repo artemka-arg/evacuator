@@ -49,7 +49,7 @@ body {
   color: #11141a;
   border-radius: 1000px;
   background-color: #fff;
-  background-image: url("img/icons/phone.svg");
+  background-image: url("../img/icons/phone.svg");
   background-repeat: no-repeat;
   background-size: 25px;
   background-position: 5px 8px;
@@ -194,3 +194,4 @@ text-align: right;
 .telegram-icon {
   filter: drop-shadow(0px 0px 4px #2e92d2);
 }
+
